@@ -26,10 +26,14 @@
 
 
 [[constraint]]
-  root-package = "github.com/bankkin/restful"
-  version = "1.10.3"
-  install = [ "./..." ]
+  name = "github.com/gorilla/mux"
+  version = "1.6.2"
 
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+root-package = "github.com/bankkin/restful"
+go-version = "1.10.3"
+install = [ "./..." ] 
