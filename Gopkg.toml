@@ -26,7 +26,7 @@
 
 
 [[constraint]]
-  root-package = "github.com/heroku/go-getting-started"
+  root-package = "github.com/bankkin/restful"
   name = "github.com/gorilla/mux"
   version = "1.10.3"
 
